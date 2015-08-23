@@ -8,6 +8,7 @@ var Repos = React.createClass({
   render: function() {
     return (
       <div>
+        Username: {this.props.username} <br/>
         Repos: {this.props.repos}
       </div>
     );
